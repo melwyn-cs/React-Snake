@@ -1,0 +1,48 @@
+button {
+  font-family: "Comic Sans MS";
+  border-radius: 15%;
+}
+
+button:hover {
+  color: aqua;
+  border-radius: 25%;
+}
+
+span {
+  font-family: "Linux Libertine Display G";
+}
+
+.expand {
+  border-radius: 75%;
+}
+
+div {
+  width: 450px;
+}
+
+.right {
+  float: right;
+}
+
+.mainMap {
+  height: 300px;
+  width: 300px;
+  background-color: grey;
+  position: relative;
+
+  .game {
+    font-family: "Courier New";
+    h1{
+      float: right;
+    }
+
+    .snakeBody {
+      .particle {
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background-color: aliceblue;
+      }
+    }
+  }
+}
